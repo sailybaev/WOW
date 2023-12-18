@@ -1,8 +1,8 @@
 package Task5;
 
 public class Person{
-    private String name;
-    private int age;
+    public String name;
+    public int age;
 
     public void setName(String a){name = a;}
     public void setAge(int a){age = a;}
@@ -16,7 +16,7 @@ public class Person{
 
 
     public void setData(String a , int b) {
-        name =a;
+        name = a;
         age = b;
     }
 

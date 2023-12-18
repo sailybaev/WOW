@@ -7,6 +7,8 @@ public class Main {
         person.setAge(17);
         person.setName("Alikhan");
 
+
+
         person.getAge();
         person.getName();
 
