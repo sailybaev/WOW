@@ -4,9 +4,9 @@ public class Person{
     String name;
     int age;
 
-    public void in(String a , int b){
-        name =a;
-        age =b;
+    public Person(String a , int b){
+        name = a;
+        age = b;
     }
 
     void getDetails(){

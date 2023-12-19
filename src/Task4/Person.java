@@ -15,7 +15,7 @@ public class Person{
     }
 
 
-    public void setData(String a , int b) {
+    public Person(String a , int b) {
         name =a;
         age = b;
     }
