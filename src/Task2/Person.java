@@ -4,13 +4,22 @@ public class Person{
     String name;
     int age;
 
+
     public Person(String a , int b){
         name = a;
         age = b;
     }
 
-    void getDetails(){
-        System.out.println(name +" "+ age);
+    public Person(){};
+
+    public String getName(){
+        return name;
     }
+
+    public int getAge(){
+        return age;
+    }
+
+
 
 }
