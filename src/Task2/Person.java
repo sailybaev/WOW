@@ -1,25 +1,11 @@
 package Task2;
 
-public class Person{
-    String name;
+public class Person {
     int age;
+    String name;
 
-
-    public Person(String a , int b){
-        name = a;
-        age = b;
+    public void printDetails(){
+        System.out.println(age + " " + name);
     }
-
-    public Person(){};
-
-    public String getName(){
-        return name;
-    }
-
-    public int getAge(){
-        return age;
-    }
-
-
-
 }
+
